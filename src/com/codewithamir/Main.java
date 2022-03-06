@@ -32,5 +32,25 @@ public class Main {
         int y = 89;
         int z = 32;
         System.out.println(x + y + z);
+
+        // java type casting
+        // widening cating
+        int myInt = 9;
+        double myDouble = myInt;
+        System.out.println(myInt);
+        System.out.println(myDouble);
+
+        // narrowing casting
+        double myDouble2 = 8.32;
+        int myInt2 = (int) myDouble; // casting double to int
+        System.out.println(myDouble2);
+        System.out.println(myInt2);
+
+        // java operators
+        /*
+         * example: int e = 5678 + 243;
+         * System.out.println(e);
+         */
+
     }
 }
