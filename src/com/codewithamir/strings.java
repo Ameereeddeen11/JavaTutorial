@@ -18,5 +18,12 @@ public class strings {
             String lastName = "Abdullaev";
             String firstName = "Amiriddin ";
             System.out.println(firstName.concat(lastName));
+
+            /* /n new line
+            * /r
+            * /t
+            * /b
+            * /f
+            */
     }
 }
