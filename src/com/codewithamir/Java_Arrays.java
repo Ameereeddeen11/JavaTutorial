@@ -18,5 +18,23 @@ public class Java_Arrays {
         String[] auto = {"Audi", "BMW", "Mercedes-Benz", "Ford"};
         System.out.println(auto.length);
         //print 4
+
+
+        //Arrays loop
+        String[] cars_x = {"Audi", "BMW", "Mercedes-Benz", "Ford"};
+        for (int i = 1; i < cars_x.length; i++) {
+            System.out.println(cars_x[i]);
+        }
+        //it will not print Audi and others will
+
+
+        //loop though an array with for-each
+        //it is used exclusively to loop through elements in arrays
+        System.out.println("This is Loop through an array with for-each");
+        String[] cars_y = {"Audi", "BMW", "Mercedes-Benz", "Ford", "Volvo"};
+        for (String y : cars){
+            System.out.println(y);
+        }
+
     }
 }
