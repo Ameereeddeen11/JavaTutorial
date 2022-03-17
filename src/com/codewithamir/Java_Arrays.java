@@ -36,5 +36,21 @@ public class Java_Arrays {
             System.out.println(y);
         }
 
+
+        System.out.println("This is multidimensional arrays");
+        //multidimensional arrays
+        int[][] myNumbers = {{1,2,3,4}, {5,6,7,8}};
+        int b = myNumbers[1][3];
+        System.out.println(b);
+
+
+        //also use a for loop
+        System.out.println("also use a for loop");
+        int[][] numbers = {{1,2,3,4}, {5,6,7}};
+        for (int c = 0; c < numbers.length; ++c) {
+            for (int d = 0; d < numbers[c].length; ++d) {
+                System.out.println(numbers[c][d]);
+            }
+        }
     }
 }
